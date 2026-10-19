@@ -1,38 +1,25 @@
-# Ashton Custom Carpentry
+# Ashton Custom Carpentry — design preview
 
-Static marketing site (HTML/CSS/JS, no build step) for bookmatch tables, river tables, and epoxy/wood countertops & bar tops. Black & gold theme.
+An original black-and-gold website concept for bespoke tables, wood and epoxy countertops, and custom bar tops. Static HTML, CSS and JavaScript. No build tools or package installation required.
 
-## Structure
-```
-index.html        Single-page site (all sections)
-thanks.html       Contact form success page
-css/styles.css    Theme, layout, animations
-js/main.js        Preloader, nav, scroll reveals, counters, gallery filter, testimonials, hero gold-dust canvas
-images/gallery/   Drop project photos here
-netlify.toml      Netlify config
+## Preview locally
+
+From the repository root:
+
+```sh
+python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-## Page outline
-1. **Hero** – animated header: preloader, gold-dust particles, flowing "river" glow, word-by-word title reveal, parallax
-2. **The Craft** – brand statement + animated stat counters
-3. **Signature Work** – Bookmatch · River · Countertops · Bar Tops
-4. **The Collection** – filterable portfolio gallery
-5. **Process** – 5-step timeline
-6. **Materials & Finishes** – species marquee + resin/finish/base options
-7. **The Maker** – about / founder story
-8. **Client Words** – rotating testimonials
-9. **Commission** – Netlify-powered inquiry form + contact info
+Open the served page in a browser. The design includes responsive navigation, gallery filters, project dialogs, scroll reveals, a scroll progress indicator, and reduced-motion support.
 
-## Editing
-- Search `[EDIT` and `[Project Name]` in `index.html` / `thanks.html` for every placeholder.
-- Replace each `<div class="ph ...">` with `<img src="images/gallery/your-photo.jpg" alt="...">`.
-- Colors live in `:root` at the top of `css/styles.css`.
+## Preview content
 
-## Local preview
-```
-python3 -m http.server 8000
-```
+The six gallery images, hero, and workshop image are generated illustrative design concepts, not photographs of completed commissions. The gallery and project dialogs identify concept imagery. Personal photos and their staged derivatives are excluded from the website assets and download package; original uploads remain preserved outside the checkout. Confirm portfolio content, materials, business details, availability, and delivery terms before launch.
 
-## Deploy (Netlify)
-New site → Import from GitHub → pick this repo. Build command: none. Publish directory: `.`
-Form submissions show up under **Forms** in the Netlify dashboard (enable form detection and set email notifications there).
+The inquiry form performs browser validation and shows an explicit preview message. It does not transmit or store inquiries. Configure and verify real submission handling before launch.
+
+Fonts are bundled locally so the preview does not depend on Google Fonts access. Bodoni Moda and Manrope are distributed under the SIL Open Font License; license files are in `assets/fonts/`.
+
+## Publish later
+
+Import this GitHub repository into Netlify and select the branch containing this site. Use no build command and publish directory `.`. The included Netlify configuration sets standard response headers. Live publication and inquiry handling have not been configured by this preview.
