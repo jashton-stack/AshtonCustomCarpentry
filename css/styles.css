@@ -25,3 +25,27 @@
 .project-card:nth-child(5){padding-top:115px}
 @media(max-width:900px){.project-card:nth-child(5){padding-top:80px}}
 @media(max-width:760px){.project-card:nth-child(5){padding-top:0}}
+
+/* Give the supplied portrait hero room beside the headline. */
+.hero-image{left:38%;right:0;width:62%;object-position:50% 27%}
+.hero-shade{background:linear-gradient(90deg,#10120f 0%,rgba(16,18,15,.98) 30%,rgba(16,18,15,.82) 43%,rgba(16,18,15,.12) 66%,rgba(16,18,15,.02) 100%),linear-gradient(0deg,rgba(16,18,15,.55),transparent 30%,transparent 75%,rgba(16,18,15,.22))}
+.project-grid{grid-template-columns:1fr 1fr}
+.project-card--landscape .project-image-wrap{height:auto;aspect-ratio:4/3}
+.project-card--landscape .project-image{object-position:center 65%}
+.project-card--portrait .project-image-wrap{height:auto;aspect-ratio:4/5}
+.project-card--portrait .project-image{object-position:center 30%}
+.project-image{filter:none}
+.dialog-image{object-fit:contain;background:var(--ink)}
+@media(max-width:1100px) and (min-width:761px){.hero-title{font-size:72px;max-width:585px}.hero-image{left:34%;width:66%}.hero-shade{background:linear-gradient(90deg,#10120f 0%,rgba(16,18,15,.98) 25%,rgba(16,18,15,.78) 43%,rgba(16,18,15,.08) 76%),linear-gradient(0deg,rgba(16,18,15,.55),transparent 32%)}}
+@media(max-width:760px){
+ .hero{display:block;height:auto;min-height:0;max-height:none}
+ .hero-image{position:relative;inset:auto;left:auto;width:100%;height:470px;margin-top:86px;object-position:center 28%;animation:none}
+ .hero-shade{background:linear-gradient(0deg,#10120f 0%,#10120f 47%,rgba(16,18,15,0) 67%);pointer-events:none}
+ .hero-inner{position:relative;margin:0 auto;padding-top:10px;padding-bottom:112px}
+ .hero-title{margin-top:22px}
+ .hero-footer{bottom:27px}
+ .site-header:not(.is-scrolled){background:var(--ink)}
+ .project-card--landscape .project-image-wrap{height:auto;aspect-ratio:4/3}
+ .project-card--portrait .project-image-wrap{height:auto;aspect-ratio:4/5}
+}
+@media(max-width:390px){.hero-image{height:435px}}
