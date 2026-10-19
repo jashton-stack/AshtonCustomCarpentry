@@ -14,7 +14,7 @@ Open the served page in a browser. The design includes responsive navigation, ga
 
 ## Preview content
 
-The six gallery images, hero, and workshop image are generated illustrative design concepts, not photographs of completed commissions. The gallery and project dialogs identify concept imagery. Personal photos and their staged derivatives are excluded from the website assets and download package; original uploads remain preserved outside the checkout. Confirm portfolio content, materials, business details, availability, and delivery terms before launch.
+The six gallery images, hero, and workshop image are generated illustrative design concepts, not photographs of completed commissions. The gallery and project dialogs identify concept imagery. The four table concepts use realistic black steel base styles guided by user-supplied Flowyline catalog screenshots: curved-X trestles, slim I-profile legs, a central crossed-steel pedestal, and branching trestles. These are rendered style illustrations, not verified images or specifications of exact manufacturer SKUs. Confirm the actual base model, mounting, dimensions, finish, and suitability for the quoted tabletop with the customer and supplier. Personal photos and their staged derivatives are excluded from the website assets and download package; original uploads remain preserved outside the checkout. Confirm portfolio content, materials, business details, availability, and delivery terms before launch.
 
 The inquiry form performs browser validation and shows an explicit preview message. It does not transmit or store inquiries. Configure and verify real submission handling before launch.
 
